@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", "sans-serif";
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-logo {
+    margin: 15px;
+    padding: 10px;
+    height: 50px;
+
+}
+
+.nav-menu {
+    margin: 15px;
+    padding: 10px;
+    height: 50px;
+
+
+
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    padding: 0 20px ;
+
+}
+
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color:#3b5472;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+
+.hero-section{
+    width:100%;
+    padding: 100px 20px;
+}
+
+.hero-wrapper{
+    width: 70%;
+    margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+
+}
+
+.hero-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.color-div{
+    background-color: #FFBEA7;
+    border-radius: 50%;
+    width: 643px;
+    height: 643px;
+    position: absolute;
+    margin: 60px auto 0 235px;
+} 
+
+
+ 
+
+.first-img{
+    border-radius: 50%;
+    position: absolute;
+    width: 587px;
+    height: 587px;
+    top: -201px;
+}
+.sec-img{
+    position: absolute;
+    border-radius: 50%;
+    width: 294px;
+    top: -220px;
+    left: 195px;
+}
+
+.text-section{
+    margin-top:300px;
+    width:100%;
+    margin-bottom: 70px;
+
+}
+
+.section-wrapper{
+   
+    width: 65%;
+    margin: 0 auto;
+}
+
+.section-wrapper> h1{
+    color: #414C62;
+    text-align: center;
+    font-size: 85px;
+    background-image: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    
+
+}
+
+.section-wrapper>h6{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px 0 0;
+    color:#808090;
+}
+
+.section-wrapper>p{
+    text-align: center;
+    font-size: 18px;
+    margin: 32px auto 0;
+    color: #3f3e56;
+    line-height: 1.8;
+    width: 495px;
+}
+
+.link{
+    border-bottom: 1px solid black; text-decoration: none;  color: #3f3e56;
+}
+.link:hover{
+
+    border:none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0;
+}
+.section-wrapper .btn{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #414C62;
+    color: #FFFFFF;
+ padding: 16px 30px;
+ letter-spacing: 2px;
+ text-decoration: none;
+ 
+
+}
+
+footer{
+    width: 100%;
+    background-color: #333333;
+    
+}
+
+.footer-wraper{
+    margin: 0px auto;
+    padding: 10px auto;
+    width: 70%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+
+.footer-wraper>p{
+    width: 620px;
+    margin: 55px auto 20px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.contact-section{
+    width:100%;
+    padding: 10px 100px;
+
+    background-color: #E5E5E5;
+    height :800px;
+}
+
+.contact-wraper{
+position: relative;
+
+}
+
+.color-div-2{
+
+    background-color: #E48100;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: 60px auto 0 235px;
+    left: 220px;
+}
+
+.img4{
+    position: absolute;
+    width: 470px;
+    height: 350px;
+    top: 160px;
+    left: 190px;
+}
+
+.img5{
+    position: absolute;
+    top: 372px;
+    left: 442px;
+}
+
+.form-contactus{
+   background-color: #FFFFFF;
+    width: 360px;
+    position: absolute;
+    top: 259px;
+    right: 262px;
+}
+
+.form-contactus h2{
+    font-size:45px;
+    font-weight: 300;
+    padding: 5px 20px;
+  
+}
+
+.form-contactus p{
+    padding: 5px 20px;
+    font-size:20px;
+    color:#3f3e56;
+}
+
+.icon{
+    padding: 0 8px 0 0;
+}
+.icon{
+    padding: 0 8px 0 0;
+}
+
+.icon i{
+    color:#f56ba8;
+
+}
+
+.form-contactus .button{
+justify-content: flex-start !important;
+}
+
+.form-contactus .btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 17px 22px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
